@@ -1,4 +1,3 @@
-package indium;
 import java.util.Scanner;
 public class Main
 {
@@ -25,7 +24,7 @@ public class Main
         {
             if(array[i]>max1)
             {
-				max2=max1;
+		max2=max1;
                 max1=array[i];
             }
         }
@@ -33,7 +32,7 @@ public class Main
         {
             if(array[i]<max1 && max2<array[i])
             {
-				max2=array[i];
+		max2=array[i];
             }
         }
         System.out.println("The second largest value is :  ");
